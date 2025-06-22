@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bookshelf App Starter Project
 
 Ini adalah starter project untuk siswa yang sedang mengerjakan tugas akhir kelas Belajar Membuat Front-End Web untuk Pemula.
@@ -36,3 +37,6 @@ Untuk mempermudah penilaian submission yang dikirim, Anda perlu memahami ketentu
 ```
 
 Selamat mengerjakan dan sukses selalu!
+=======
+# BookShelf-App
+>>>>>>> f0278cf1f852b25400027a8513a7acb68a570421

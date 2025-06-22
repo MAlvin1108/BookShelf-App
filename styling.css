@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url("./assets/img/2cb4ec33e4deb347eae1eccf2a77ae97.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #c5814a9f;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2f2842;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 400;
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+
+input[type='text'], input[type='number'] {
+    padding: 10px;
+    border: 2px solid #507383;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    background-color: #ceb33d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+
+
+button:hover {
+    background-color: #050505;
+}
+
+.book-list {
+    margin-top: 20px;
+}
+
+.book-item {
+    background: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #c5824a;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book-item h3 {
+    margin-bottom: 5px;
+}
+
+.book-item p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.book-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.book-actions button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.complete-button {
+    background: #2ecc71;
+}
+
+.complete-button:hover {
+    background: #27ae60;
+}
+
+.delete-button {
+    background: #e74c3c;
+}
+
+.delete-button:hover {
+    background: #c0392b;
+}
+
+.edit-button {
+    background: #f1c40f;
+}
+
+.edit-button:hover {
+    background: #d4ac0d;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+}
